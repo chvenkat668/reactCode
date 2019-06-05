@@ -1,0 +1,104 @@
+
+
+.group-grid{
+    font-size: 14px;
+}
+.group-grid .grid-panel{
+    margin-bottom: 10px;
+}
+.group-filters{
+
+}
+.group-filters .group-texbox{
+    width: 95%;
+    margin: 0 auto;
+}
+.group-filters .group-texbox label{
+    font-weight: bold;
+    float: left;
+}
+.group-filters .group-texbox input{
+    width: 80%;
+    padding: 5px;
+    margin-top: -3px;
+    margin-left: 10px;
+}
+
+.group-filters  .group-f{
+    width: 95%;
+    margin: 0 auto;
+}
+.group-filters .group-f ul{
+    list-style: none;
+    padding:0px;
+}
+.group-filters .group-f ul li{
+    display:inline-block;
+}
+.group-filters .group-f ul li.right {
+    float: right;
+}
+.group-filters .group-f li b{
+
+}
+.group-filters .group-f li button{
+    background: transparent;
+    color:#00a8fd;  
+    border:none;
+    font-weight: bold;
+}
+.group-grid  .grid-header{
+    border-left: 4px solid #00a8fd;  
+    background: #ace3ff;
+}
+
+.group-grid  .g-h1{
+    margin:0px;
+    padding:7px  10px;
+}
+
+.group-grid  .g-h-b{    
+    background: #f1f1f1;
+    padding:0px;
+    padding-left: 10px;
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+}
+.group-grid  .g-h-b-checkbox{
+    float:left;
+    margin:5px 3px;
+}
+.group-grid  .g-h-b-checkbox input{
+
+}
+.group-grid  .g-h-b-title{
+    float:left;
+    margin:3px;
+    margin-left:5px;
+}
+.group-grid .g-h-b-title b{
+
+}
+.group-grid .g-h-b-title p{
+    margin: 2px 0px;
+    font-size: 12px;
+}
+
+
+.group-grid  .grid-body{
+
+}
+.group-grid  .grid-body table{
+    width:calc(100% - 40px);
+    margin-left:40px;
+}
+.group-grid  .grid-body table tr{
+
+}
+.group-grid  .grid-body table tr td{
+    padding: 6px 0px;
+}
+.group-grid  .grid-body table tr td input{
+
+}

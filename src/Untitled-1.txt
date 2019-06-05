@@ -1,0 +1,132 @@
+/** Copyright (c) 2019 T. Rowe Price. All rights reserved. */
+
+@import '../../../../style/variables/all.css';
+
+/* tile css */
+.table-res{
+    font-size: 14px;
+    width: 98%;
+    maring:0 auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+.table-res tr{
+
+}
+.table-res tr th{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.table-res tr th,
+.table-res tr td{
+    padding:7px 5px;
+    border-bottom: 1px solid #ccc;
+}
+.table-res tr th select,
+.table-res tr td select{
+    border: 1px solid #005dff;
+    color: #005dff;
+    text-transform: capitalize;
+    font-size: 14px;
+    padding:3px;
+}
+
+.table-res tr:last-child th,
+.table-res tr:last-child td{
+    border-bottom:none;
+}
+
+.customize-accounts-main-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-side-container {
+    flex: 35%;
+}
+
+.right-side-container {
+    flex: 65%;
+}
+
+.customize-accounts-view-header {
+    font-size: var(--font-xxxlarge);
+    font-family: var(--font-face-regular);
+}
+
+.customize-account-section-body {
+    padding: var(--spacing-xlg);
+}
+
+.customize-accounts-view-sub-header {
+    font-size: var(--font-xxmedium);
+    font-family: var(--font-face-light);
+}
+
+.customize-accounts-section-header-label {
+    font-family: var(--font-face-bold);
+    font-size: var(--font-xmedium);
+}
+
+.customize-accounts-as-of-date {
+    font-size: var(--font-small);
+    font-family: var(--font-face-regular);
+    margin-left: var(--spacing-xsm);
+}
+
+.customize-accounts-section-sub-header {
+    font-size: var(--font-xsmall);
+    font-family: var(--font-face-regular);
+    margin-top: var(--spacing-xsm);
+}
+
+.customize-accounts-section-sub-header-links {
+    font-size: var(--font-small);
+    font-family: var(--font-face-regular);
+    color: var(--color-blue-light);
+    margin-top: var(--spacing-xsm);
+    float: right;
+}
+
+.customize-accounts-section-sub-header-show {
+    margin-left: var(--spacing-hg);
+}
+
+.customize-accounts-account-visibility {
+    margin-left: var(--spacing-xxxlg);
+}
+
+.customize-accounts-custom-account-groups {
+    margin-top: var(--spacing-xxmd);
+}
+
+.customize-accounts-save-button {
+    background-color: var(--color-blue-light);
+    color: var(--color-white);
+    border: none;
+    border-radius: var(--spacing-xsm);
+    text-align: center;
+    font-size: var(--font-small);
+    padding: var(--spacing-sm) var(--spacing-hg);
+    margin-left: var(--spacing-xlg);
+    margin-bottom: var(--spacing-lg);
+}
+
+.customize-account-custom-account-section-header {
+    padding: var(--spacing-xlg)
+}
+
+.customize-account-default-grouping-section-header {
+    height: var(--spacing-xxlg);
+    padding: var(--spacing-xlg)
+}
+
+.customize-account-section-footer {
+    margin-top: var(--spacing-xmd);
+}
+
+.account-visibility-button {
+    float: right;
+    margin-right: var(--spacing-xxxxlg);
+}
